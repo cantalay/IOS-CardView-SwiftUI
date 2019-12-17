@@ -13,6 +13,9 @@
 		692824AE23A8E47500F439FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 692824AD23A8E47500F439FE /* Assets.xcassets */; };
 		692824B123A8E47500F439FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 692824B023A8E47500F439FE /* Preview Assets.xcassets */; };
 		692824B423A8E47500F439FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692824B223A8E47500F439FE /* LaunchScreen.storyboard */; };
+		692824BE23A8ECCE00F439FE /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 692824BD23A8ECCD00F439FE /* Lobster-Regular.ttf */; };
+		692824C023A8EE2F00F439FE /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 692824BF23A8EE2F00F439FE /* AmaticSC-Bold.ttf */; };
+		692824C223A8F98400F439FE /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692824C123A8F98400F439FE /* PhoneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		692824B023A8E47500F439FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		692824B323A8E47500F439FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		692824B523A8E47500F439FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		692824BD23A8ECCD00F439FE /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lobster-Regular.ttf"; path = "../../../../../Downloads/Lobster/Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		692824BF23A8EE2F00F439FE /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AmaticSC-Bold.ttf"; path = "../../../../../Downloads/Amatic_SC/AmaticSC-Bold.ttf"; sourceTree = "<group>"; };
+		692824C123A8F98400F439FE /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,11 @@
 		692824A623A8E46000F439FE /* Can Card */ = {
 			isa = PBXGroup;
 			children = (
+				692824BB23A8E88F00F439FE /* fonts */,
 				692824A723A8E46000F439FE /* AppDelegate.swift */,
 				692824A923A8E46000F439FE /* SceneDelegate.swift */,
 				692824AB23A8E46000F439FE /* ContentView.swift */,
+				692824C123A8F98400F439FE /* PhoneView.swift */,
 				692824AD23A8E47500F439FE /* Assets.xcassets */,
 				692824B223A8E47500F439FE /* LaunchScreen.storyboard */,
 				692824B523A8E47500F439FE /* Info.plist */,
@@ -73,6 +81,15 @@
 				692824B023A8E47500F439FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		692824BB23A8E88F00F439FE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				692824BD23A8ECCD00F439FE /* Lobster-Regular.ttf */,
+				692824BF23A8EE2F00F439FE /* AmaticSC-Bold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				692824B423A8E47500F439FE /* LaunchScreen.storyboard in Resources */,
+				692824C023A8EE2F00F439FE /* AmaticSC-Bold.ttf in Resources */,
+				692824BE23A8ECCE00F439FE /* Lobster-Regular.ttf in Resources */,
 				692824B123A8E47500F439FE /* Preview Assets.xcassets in Resources */,
 				692824AE23A8E47500F439FE /* Assets.xcassets in Resources */,
 			);
@@ -149,6 +168,7 @@
 				692824A823A8E46000F439FE /* AppDelegate.swift in Sources */,
 				692824AA23A8E46000F439FE /* SceneDelegate.swift in Sources */,
 				692824AC23A8E46000F439FE /* ContentView.swift in Sources */,
+				692824C223A8F98400F439FE /* PhoneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
